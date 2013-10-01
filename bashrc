@@ -138,31 +138,41 @@ fi
 # PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]:\[\!\]\n\$'
 PS1='\[\e[1;34m\]\u\[\e[m\]@[\[\e[1;31m\]\t\[\e[m\]]:[\[\e[1;35m\]\!\[\e[m\]]@[\[\e[0;33m\]\#\[\e[m\]]:\[\e[0;36m\]\w\[\e[m\]\n$ '
 
-
-
-export PATH=$PATH:~/Dropbox/programs/bash 
-
-proxy="http://libjis:lib12345@proxy.iitm.ac.in:3128/"
-hproxy="http://ee11b053:F1xhdg+19lt@hproxy.iitm.ac.in:3128/"
-noproxy=""
-
-
 export EDITOR=vim
-export LD_LIBRARY_PATH=/usr/local/lib
-PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
-export PKG_CONFIG_PATH
-PATH=$PATH:/usr/local/cuda-5.0/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib
 cd ~
-#HISTFILE=''
-#rm ~/.bash_history
-#ln -s ~paranoidsp/Dropbox/ubuntu/home/.bash_history ~/.bash_history;
-#HISTFILE='~/.bash_history'
 HISTIGNORE=cd:
-PATH=$PATH:~/sml/bin
+HISTFILE=~/.bash_history
 
-hproxy='http://ee11b053:F1xhdg+19lt@hproxy.iitm.ac.in:3128/'
-auth="http://libjis:lib12345@localhost:1234/"
-noauth='http://localhost:1234/'
-export http_proxy=$hproxy
-source ~paranoidsp/git/system-config/.proxyrc
+source_errors=0
+# Source all local files.
+if [[ -f /usr/bin/virtualenvwrapper.sh ]] ; then
+    source /usr/bin/virtualenvwrapper.sh
+fi
+if [[ -e ~/.zshlocal ]] ; then
+    source ~/.zshlocal ; 
+else
+    source_errors=$source_errors+1
+    echo "The zshlocal file has not been sourced."
+fi
+if [[ -e ~/.zshlocal ]] ; then
+    source ~/.proxyrc
+else
+    source_errors=$source_errors+1
+    echo "The proxyrc file has not been sourced."
+fi
+if [[ -e ~/.proxychange ]] ; then
+    source ~/.proxychange
+else
+    source_errors=$source_errors+1
+    echo "The proxychange file has not been sourced."
+fi
+if [[ ! $source_errors -eq 0 ]] ; then
+    echo "To get rid of this error, run mkdots_error"
+fi
+
+function mkdots_error(){
+    touch ~/.zshlocal ; 
+    touch ~/.proxyrc ;
+    touch ~/.proxychange ;
+}
+
