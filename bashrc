@@ -176,3 +176,5 @@ function mkdots_error(){
     touch ~/.proxychange ;
 }
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

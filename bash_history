@@ -1,116 +1,3 @@
-: 1362702790:0;cat ~/.oh-my-zsh/lib/misc.zsh
-: 1362702800:0;cat ~/.oh-my-zsh/lib/edit-command-line.zsh
-: 1362702809:0;cat ~/.oh-my-zsh/lib/git.zsh
-: 1362705056:0;cd git/aadhar
-: 1362705056:0;ls
-: 1362705059:0;lsd
-: 1362705073:0;cd git/aadhar
-: 1362705073:0;ls
-: 1362705075:0;lsd
-: 1362705081:0;cd exe
-: 1362705081:0;ls
-: 1362705085:0;cd pics
-: 1362705086:0;ls
-: 1362705091:0;cd ..
-: 1362705092:0;ls
-: 1362705093:0;cd ..
-: 1362705094:0;ls
-: 1362705250:0;scp ~/git/aadhar/cvg.png ubuntu@54.235.135.122:/home/ubuntu/cvg.png
-: 1362706561:0;cd git/proj
-: 1362706585:0;cd ~/git/projects
-: 1362706586:0;ls
-: 1362706602:0;rm -rf pptx mp4 txt srt
-: 1362706603:0;ls
-: 1362706612:0;rm -rf pdf
-: 1362706614:0;cd ignore
-: 1362706615:0;ls
-: 1362706621:0;cd ..
-: 1362706622:0;ls
-: 1362706627:0;rm test2
-: 1362706631:0;rm -r test3
-: 1362706654:0;ipython
-: 1362786917:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.21
-: 1362787148:0;ssh ubuntu@54.235.135.122
-: 1362788523:0;cd .emacs.d/
-: 1362788523:0;ls
-: 1362788525:0;cd ..
-: 1362788531:0;cat .emacs
-: 1362788548:0;nano .
-: 1362788557:0;nano .emacs
-: 1362788599:0;ls
-: 1362788605:0;cd .emacs.d
-: 1362788605:0;ls
-: 1362788620:0;cd /media/
-: 1362788621:0;ls
-: 1362788633:0;cd svalbard
-: 1362788669:0;cd Fundaes/Peepcode/Video/peepcode-027-emacs/peepcode-027-emacs-code/peepcode-027-emacs-code
-: 1362788713:0;mv emacs-starter-kit ~/git/system-config/emacs
-: 1362788727:0;cd ~/git/system-config/emacs
-: 1362788728:0;l;s
-: 1362788729:0;ls
-: 1362788735:0;cd .emacs.d
-: 1362788736:0;ls
-: 1362788739:0;cd ..
-: 1362788828:0;ls
-: 1362788838:0;rm -rf emacs-starter-kit
-: 1362788842:0;cd .emacs.d
-: 1362788843:0;ls
-: 1362788871:0;git clone git@github.com:technomancy/emacs-starter-kit.git
-: 1362788939:0;;s
-: 1362788940:0;ls
-: 1362789019:0;cd emacs-
-: 1362789023:0;cd emacs-starter-kit
-: 1362789024:0;ls
-: 1362789032:0;nano README.markdown
-: 1362789119:0;cd ..
-: 1362789127:0;rm ~/.emacs.d
-: 1362789128:0;ls
-: 1362789169:0;ln -s ~/git/system-config/emacs/emacs-starter-kit ~/.emacs.d
-: 1362789195:0;ln -s sml-mode-5.0 emacs-starter-kit/sml-mode-5.0
-: 1362789202:0;cd emacs-
-: 1362789203:0;cd emacs-starter-kit
-: 1362789204:0;ls
-: 1362789208:0;cd modules
-: 1362789209:0;sl
-: 1362789209:0;ls
-: 1362789215:0;cd
-: 1362789332:0;sudo pkill emacs
-: 1362789344:0;emacs
-: 1362789364:0;cd .emacs.d
-: 1362789365:0;ls
-: 1362789367:0;ls -al
-: 1362789372:0;history
-: 1362789393:0;~17181
-: 1362789398:0;ln -s ~/git/system-config/emacs/emacs-starter-kit ~/.emacs.d
-: 1362789408:0;rm ~/.emacs.d
-: 1362789410:0;ln -s ~/git/system-config/emacs/emacs-starter-kit ~/.emacs.d
-: 1362789420:0;emacs
-: 1362789529:0;ln -s ~/git/system-config/emacs/.emacs.d/emacs-starter-kit ~/.emacs.d
-: 1362789534:0;rm ~/.emacs.d
-: 1362789535:0;ln -s ~/git/system-config/emacs/.emacs.d/emacs-starter-kit ~/.emacs.d
-: 1362789539:0;emacs
-: 1362789706:0;history | grep ln
-: 1362789753:0;ln -s ~/git/system-config/emacs/.emacs.d/sml-mode-5.0 emacs-starter-kit/sml-mode-5.0
-: 1362789759:0;rm emacs-starter-kit/sml-mode-5.0
-: 1362789787:0;rm ~/git/system-config/emacs/.emacs.d/emacs-starter-kit/sml-mode-5.0
-: 1362789789:0;ln -s ~/git/system-config/emacs/.emacs.d/sml-mode-5.0 emacs-starter-kit/sml-mode-5.0
-: 1362789805:0;rm ~/git/system-config/emacs/.emacs.d/emacs-starter-kit/sml-mode-5.0
-: 1362789815:0;ln -s ~/git/system-config/emacs/.emacs.d/sml-mode-5.0 ~/git/system-config/emacs/.emacs.d/emacs-starter-kit/sml-mode-5.0
-: 1362789822:0;emacs
-: 1362833403:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.21
-: 1362833590:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.61
-: 1362833677:0;calibre --help
-: 1362833696:0;calibre &
-: 1362833765:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.25
-: 1362833785:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.23'\
-'
-: 1362833789:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.23
-: 1362833798:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.28
-: 1362833837:0;BBBB
-: 1362833840:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.31
-: 1362833845:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.22
-: 1362833856:0;ssh -L 1234:proxy.iitm.ac.in:3128 nithinr@10.6.16.62
-: 1362836042:0;sudo shutdown now -P
 nostalgic symlink bash-config
 vim ~/.zsh_aliases 
 cd
@@ -712,3 +599,201 @@ cat /etc/pacman.d/mirrorlist.backup
 rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
 #1379952530
 rankmirrors /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist.ranked
+#1380932061
+mkdots_error 
+#1380932077
+journalctl -xb
+#1380932977
+sudo reboot
+#1380933038
+sudo systemctl disable media-classical.mount
+#1380933052
+sudo systemctl status media-classical.mount
+#1380933066
+sudo pysdm
+#1380933074
+sudo vim /etc/fstab
+#1381843474
+sudo systemctl disable media-win.mount
+#1381843486
+sudo vim /etc/fstab
+#1381843531
+sudo reboot
+#1382570012
+source ~/Downloads/bashrc_renamed 
+#1382570671
+vim ~/.zsh_aliases 
+#1383361977
+cd /root/
+#1383361977
+ls
+#1383361985
+mv xorg.conf.new xorg.conf.new.old
+#1383361992
+ls
+#1383361995
+cd ..
+#1383361995
+ls
+#1383362614
+cd /var/log/gdm/
+#1383362615
+ls
+#1383362620
+vim \:0.log
+#1383362658
+tmux
+#1383362681
+ls
+#1383362741
+man x
+#1383362844
+man X
+#1383362878
+sudo systemctl start gdm
+#1383362894
+sudo systemctl status gdm
+#1383363338
+ls
+#1383363340
+cd /root/
+#1383363341
+ls
+#1383363350
+mv xorg.conf.new.old xorg.conf.new
+#1383363364
+cd /etc/X11/
+#1383363364
+ls
+#1383363370
+cd xorg.conf
+#1383363373
+cd xorg.conf.
+#1383363376
+cd xorg.conf.d/
+#1383363376
+ls
+#1383363379
+cd ..
+#1383363380
+ls
+#1383363382
+vim xorg.conf
+#1383363401
+ls
+#1383363404
+startx
+#1383364172
+cd /root/
+#1383364173
+ls
+#1383364177
+vim xorg.conf.new 
+#1383364273
+yaourt -Syu
+#1383364308
+sudo systemctl start dhcpcd
+#1383364312
+yaourt -Syu
+#1383364326
+sudo systemctl status dhcpcd
+#1383364342
+sudo systemctl restart dhcpcd
+#1383364343
+sudo systemctl status dhcpcd
+#1383364352
+yaourt -Syu
+#1383364400
+yaourt -S linux-ck-sandybridge nvidia-ck-sandybridge
+#1383364433
+sudo pkill x
+#1383365368
+vim /root/xorg.conf.new 
+#1383365465
+X -configure
+#1383365477
+vim /root/xorg.conf.new 
+#1383365521
+X -configure
+#1383365535
+locate xorg.conf
+#1383365542
+man xorg.conf
+#1383365738
+vim /root/xorg.conf.new 
+#1383365753
+X -configure
+#1383365762
+vim /etc/X11/
+#1383365769
+cd /etc/X11/
+#1383365769
+ls
+#1383365771
+vim xorg.conf
+#1383365785
+ls
+#1383365791
+vim xorg.conf.nvidia-xconfig-original 
+#1383365794
+ls
+#1383365798
+cd xorg.conf.
+#1383365798
+ls
+#1383365804
+cd xorg.conf.d
+#1383365805
+ls
+#1383365808
+cd ..
+#1383365808
+ls
+#1383365812
+vim xorg.conf.backup 
+#1383365840
+diff xorg.conf xorg.conf.backup 
+#1383365882
+pkill x
+#1383365867
+startx
+#1383365891
+sudo systemctl start gdm
+#1383370426
+for i in `pacman -Qql playonlinux`; do convert "$i" -strip "$i"; done
+#1383370516
+cd /usr/share/playonlinux/
+#1383370517
+for i in `find . | grep .png`; do convert "$i" -strip "$i"; done
+#1383370576
+for i in `pacman -Qql playonlinux`; do convert "$i" -strip "$i"; done
+#1383370649
+sudo pacman -S lib32-intel-dri
+#1383370825
+yaourt -S bumblebee bumblebee-nvidia
+#1383370830
+yaourt -S bumblebee
+#1383370849
+vim /etc/bumblebee/bumblebee.conf 
+#1383370891
+la
+#1383370900
+vim /etc/bumblebee/xorg.conf.nouveau 
+#1383370905
+vim /etc/bumblebee/xorg.conf.nvidia 
+#1385558105
+cd /media/A0F24525F24500D0/
+#1385558106
+ls
+#1385558108
+cd ..
+#1385558108
+ls
+#1386186488
+cd .config/
+#1386186488
+ls
+#1386186501
+granger
+#1391806530
+vim /etc/fstab
